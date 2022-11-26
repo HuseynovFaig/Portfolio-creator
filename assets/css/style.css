@@ -16,27 +16,101 @@ header {
     padding-left: 112.5px;
 }
 
-header .nav-links a{
-    color:#000;
+header .nav-links a {
+    color: #000;
     text-decoration: none;
 }
 
-.fa-bars{
+.fa-bars {
     display: none;
 }
 
-@media(max-width:732px){
-    .fa-bars{
-        display:flex;
+@media(max-width:732px) {
+    .fa-bars {
+        display: flex;
         font-size: 22px;
-        cursor:pointer;
+        cursor: pointer;
     }
-.nav-links{
-    display: none;
-}
+
+    .nav-links {
+        display: none;
+    }
 }
 
-.header{
+.header {
     padding-left: 24px;
-    padding-right:24px;
+    padding-right: 24px;
 }
+
+.introsection {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 7.03rem;
+    padding-right: 0;
+
+}
+
+.intro-left-side {
+    padding-top: 117px;
+    min-width: 680px;
+    flex-basis: 50%;
+}
+
+.intro-right-side {
+    padding-top: 70px;
+    padding-right: 10px;
+    min-width: 500px;
+    flex: 1;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.intro-left-side h1 {
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom:10px;
+    padding-left:60px;
+}
+
+.intro-left-side h1 span {
+    color: #FF8A56;
+
+
+}
+
+.intro-right-side img {
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width:1311px) and (min-width:768px) {}
+.introsection {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media(max-width:768px) {
+    .intro-left-side {
+        min-width: 500px;
+        text-align: center;
+        padding-top: 40px
+    }
+
+}
+
+.intro-left-side p{
+    margin-bottom:25px;
+    padding:60px;
+}
+
+.intro-left-side button{
+    width: 151px;
+    height:58px;
+    background-color:#000;
+    color:#fff;
+    cursor: pointer;
+    
+
+}
+
