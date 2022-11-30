@@ -122,3 +122,28 @@ button a{
 }
 
 
+/* TRUSTED BY SECTION START */
+.trusted-by-section > h6{
+    text-align: center;
+    font-size:18px;
+    font-weight: 400;
+    padding-top: 77px;
+}
+.trusted-by-companies{
+    display:flex;
+    justify-content: space-around;
+    padding-top:46px;
+}
+
+@media(max-width:768px){
+    .trusted-by-company:nth-child(even){
+        display:none;
+    }
+}
+
+display:none;
+
+
+
+/* TRUSTED BY SECTION END */
+
