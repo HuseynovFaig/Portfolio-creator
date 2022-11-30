@@ -96,7 +96,11 @@ header .nav-links a {
     .intro-left-side {
         min-width: 500px;
         text-align: center;
-        padding-top: 40px
+        padding-top: 40px;
+    }
+
+    .introsection {
+        padding-left: 0;
     }
 
 }
@@ -139,9 +143,23 @@ button a{
     .trusted-by-company:nth-child(even){
         display:none;
     }
+
+    .intro-left-side h1 {
+        padding-left: 0;
+    }
+
+    .header {
+        padding-left: 0;
+        padding-right:0; 
+    }
 }
 
-display:none;
+
+@media(max-width:576px) {
+    .intro-left-side {
+        min-width: 300px;
+    }
+}
 
 
 
