@@ -159,6 +159,10 @@ button a{
     .intro-left-side {
         min-width: 300px;
     }
+
+}
+.trusted-by-companies img{
+    width: 120px;
 }
 
 
