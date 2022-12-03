@@ -169,3 +169,20 @@ button a{
 
 /* TRUSTED BY SECTION END */
 
+
+/* SERVICES SECTION START */
+
+
+h2,h6{
+    text-align: center;
+}
+
+.services {
+ padding-top:120px;
+}
+
+h6{
+    font-weight: 700;
+}
+/* SERVICES SECTION END */
+
