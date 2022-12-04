@@ -1,7 +1,18 @@
 @import url('./reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+:root{
+    --pink-color:#FF5E69;
+}
 
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+/* HEADER START */
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -42,6 +53,15 @@ header .nav-links a {
     padding-right: 24px;
 }
 
+/* HEADER END */
+
+
+
+
+
+
+
+/* INTROSECTION START */
 .introsection {
     display: flex;
     justify-content: space-between;
@@ -112,18 +132,24 @@ header .nav-links a {
 }
 
 .intro-left-side button{
-    width: 132px;
+    width: 100px;
     height:50px;
     background-color:#000;
     color:#fff;
     cursor: pointer;
     font-size:15px;
    margin-right: 20px;
-   margin-left: 50px;
+   margin-left:50px;
 }
 button a{
     padding-right: 15px;
 }
+/* INTROSECTION END */
+
+
+
+
+
 
 
 /* TRUSTED BY SECTION START */
@@ -178,11 +204,40 @@ h2,h6{
 }
 
 .services {
- padding-top:120px;
+ padding-top:40px;
 }
 
 h6{
     font-weight: 700;
+    color:var(--pink-color);
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 27px;
+    margin-top: 24px ;
+}
+
+
+.services-cards-section{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-card{
+/* background-color: #FF8A56; */
+width: 20%;
+min-width: 250px;
+
+}
+
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 0;
 }
 /* SERVICES SECTION END */
 
