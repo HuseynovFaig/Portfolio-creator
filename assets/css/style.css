@@ -87,7 +87,7 @@ header .nav-links a {
 }
 
 .intro-left-side h1 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
     margin-bottom:10px;
     padding-left:60px;
@@ -222,8 +222,9 @@ h2{
 
 .services-cards-section{
   display:flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-top: 80px;
 }
 
 .service-card{
