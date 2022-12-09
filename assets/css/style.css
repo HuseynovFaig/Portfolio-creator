@@ -237,6 +237,7 @@ h2{
 /* background-color: #FF8A56; */
 width: 20%;
 min-width: 250px;
+margin-bottom: 30px;  
 
 }
 
@@ -246,5 +247,11 @@ ul{
     list-style-position: inside;
     padding-left: 0;
 }
+
 /* SERVICES SECTION END */
+
+
+
+
+
 
