@@ -252,7 +252,7 @@ ul{
 .projects-section{
 display: flex;
 flex-direction: column;
-padding-left: 113px;
+padding-left: 60px;
 padding-top: 77px;
 }
 
@@ -298,10 +298,27 @@ padding-top: 77px;
 }
 
 
+.project-card-bottom{
+    padding: 32px;
+}
+
+.project-card:nth-child(3)>img{
+    width: 100%;
+}
 
 
 
+.projects-section button{
+    width: 46px;
+    height: 46px;
+   
+}
 
+.button{
+    display: flex;
+justify-content: end;
+padding-right: 75px;
+}
 
 
 
