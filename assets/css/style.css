@@ -478,25 +478,119 @@ justify-content: center;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* PRODUCT DESIGNER SECTION END */
 
 
 
+/* EDUCATION WORK SECTION START */
+.education-work-section{
+    display:flex;
+    padding-top:66px;
+    flex-wrap: wrap;
+}
 
+
+.education-side{
+    /* background-color: aqua; */
+    flex-basis: 50%;
+min-width:407px; 
+}
+
+
+.work-side{
+    /* background-color: #FF5E69; */
+    flex:1;
+     min-width:407px; 
+}
+
+
+.education{
+    border-bottom:1px solid #dedede;
+    padding:20px 20px 20px 0;
+}
+
+.education-side > h1{
+    font-size:28px;
+    margin-bottom:38px;
+}
+
+.education-top{
+    display:flex;
+    justify-content: space-between;
+}
+
+.education-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top:18px;
+}
+
+.education-bottom > span:nth-child(2){
+    margin-right:36px;
+    /* margin-top: 34px; */
+}
+
+
+.work-side > h1{
+    font-size:28px;
+    margin-bottom:38px;
+}
+
+
+.work-section{
+    display:flex;
+    align-items: center;
+}
+
+
+
+.work-section > svg{
+    flex-basis:8%;
+
+}
+
+.work{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    border-bottom:1px solid #dedede;
+    padding:20px 20px 20px 0;
+}
+
+.work-top{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+
+.work-bottom{
+    display:flex;
+    justify-content: space-between;
+    padding-top:18px;
+}
+
+
+
+.work-bottom > span:nth-child(2){
+    margin-right:36px;
+}
+
+
+
+
+@media(max-width:831px){
+    .education-side{
+        flex:1;
+    }
+}
+
+
+
+
+
+
+/* EDUCATION WORK SECTION END */
 
 
 
