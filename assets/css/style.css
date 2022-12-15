@@ -256,10 +256,16 @@ width: 100%;
     .project-card{
         width: 45%;
     }
+    .project-card:last-child{
+        display: none;
+    }
 }
 @media(max-width:500px){
     .project-card{
         width: 90%;
+    }
+    .project-card:nth-child(2){
+        display: none;
     }
     .project-container{
         flex-direction: column;
@@ -342,6 +348,16 @@ width: 100%;
         padding-left:0;
         padding-right: 0;
         align-items: center;
+    }
+}
+@media(max-width:527px){
+    .latest-blog-section > .right-side > .blog{
+        padding-right: 0;
+        width: 490px;
+        margin-right:0 ;
+    }
+    .latest-blog-section > .right-side{
+        margin-right: 0;
     }
 }
 /* LATEST BLOG SECTION END */
