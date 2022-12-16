@@ -396,11 +396,7 @@ ul {
         /* margin-right:0 ; */
     }
 
-    .latest-blog-section>.right-side {
-        /* margin-right: 0; */
-    }
-}
-
+   
 /* LATEST BLOG SECTION END */
 
 
@@ -949,7 +945,7 @@ ul {
 
 /* FINAL-SECTION END*/
 
-/* FOOTER START */
+/* FOOTER SECTION START */
 
 
 
@@ -985,4 +981,7 @@ padding:0px 60px 40px
     text-decoration: underline;
 }
 
-/* FOOTER END */
+}
+
+
+/* FOOTER SECTION END */
