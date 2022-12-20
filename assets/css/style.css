@@ -39,7 +39,7 @@ header nav {
 
 @media(max-width:768px) {
     .fa-bars {
-        display: block;
+        display: block !important;
         font-size: 22px;
         cursor: pointer;
     }
