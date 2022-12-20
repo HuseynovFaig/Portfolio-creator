@@ -34,7 +34,7 @@ header nav {
 }
 
 .fa-bars {
-    display: none;
+    display: none !important;
 }
 
 @media(max-width:768px) {
@@ -396,7 +396,7 @@ ul {
         /* margin-right:0 ; */
     }
 
-   
+}
 /* LATEST BLOG SECTION END */
 
 
@@ -953,8 +953,6 @@ ul {
     background-color:#000;
     display:flex;
     flex-wrap:wrap;
-    /* padding-bottom:60px; */
-/* padding-left: 40px; */
 padding:0px 60px 40px
 
 }
@@ -981,7 +979,7 @@ padding:0px 60px 40px
     text-decoration: underline;
 }
 
-}
+
 
 
 /* FOOTER SECTION END */
