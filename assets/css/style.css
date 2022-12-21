@@ -315,7 +315,7 @@ ul {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: -10%;
+    margin-top: -10%; 
     padding-top: 120px;
 }
 
@@ -545,14 +545,12 @@ ul {
 
 
 .education-side {
-    /* background-color: aqua; */
     flex-basis: 50%;
     min-width: 407px;
 }
 
 
 .work-side {
-    /* background-color: #FF5E69; */
     flex: 1;
     min-width: 407px;
 }
@@ -866,10 +864,6 @@ ul {
     padding-bottom: 10px;
 }
 
-/* .final-section-bottom>.left-side>.img {
-    display: flex;
-    gap: 6px;
-} */
 
 .final-section h5 {
     color: #666666;
@@ -916,14 +910,12 @@ ul {
     display: flex;
     flex-direction: column;
     padding-bottom: 40px;
-    /* padding-right: 142px; */
 }
 
 .services a {
     display: flex;
     flex-direction: column;
     padding-bottom: 40px;
-    /* padding-right: 142px; */
 }
 
 .experience a {
@@ -947,8 +939,6 @@ ul {
 
 /* FOOTER SECTION START */
 
-
-
 .footer{
     background-color:#000;
     display:flex;
@@ -956,7 +946,6 @@ ul {
 padding:0px 60px 40px
 
 }
-
 
 .footer p{
     color:#666666;
@@ -971,15 +960,10 @@ padding:0px 60px 40px
     font-weight: 400;
     font-size: 14px;
     text-decoration: none;
-    
 }
-
 
 .footer a:hover{
     text-decoration: underline;
 }
-
-
-
 
 /* FOOTER SECTION END */
