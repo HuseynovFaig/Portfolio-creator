@@ -271,12 +271,25 @@ ul {
     background-color: #fff
 }
 
-.buton {
+
+.slider-btns button{
+    width:40px;
+    height:40px;
+}
+
+.slider-btns{
+    align-self: flex-end;
+    padding-top: 20px;
+    padding-right: 40px;
+    /* justify-content: right; */
+}
+/* 
+.buton button {
     width: 85%;
     display: flex;
     margin: auto;
     justify-content: flex-end;
-}
+} */
 
 @media(max-width:992px) {
     .projects-cards {
